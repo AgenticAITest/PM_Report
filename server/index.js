@@ -5,7 +5,7 @@ const path = require('path');
 const fs = require('fs');
 
 const app = express();
-const PORT = 3001;
+const PORT = process.env.PORT || 3001;
 
 // Helper function to parse European number format (comma as decimal separator)
 function parseEuropeanNumber(str) {
@@ -140,6 +140,12 @@ const upload = multer({
 // Middleware
 app.use(cors());
 app.use(express.json());
+
+// Serve static files from React build in production
+const clientBuildPath = path.join(__dirname, '../client/build');
+if (fs.existsSync(clientBuildPath)) {
+  app.use(express.static(clientBuildPath));
+}
 
 // Get all weekly data
 app.get('/api/weeks', (req, res) => {
@@ -374,6 +380,13 @@ app.get('/api/weeks/:weekId/data', (req, res) => {
   res.json(result);
 });
 
+// Serve React app for all non-API routes in production
+if (fs.existsSync(clientBuildPath)) {
+  app.get('*', (req, res) => {
+    res.sendFile(path.join(clientBuildPath, 'index.html'));
+  });
+}
+
 // Error handling middleware
 app.use((err, req, res, next) => {
   if (err instanceof multer.MulterError) {
@@ -388,6 +401,7 @@ app.use((err, req, res, next) => {
   next();
 });
 
-app.listen(PORT, () => {
-  console.log(`Server running on http://localhost:${PORT}`);
+const HOST = process.env.NODE_ENV === 'production' ? '0.0.0.0' : '127.0.0.1';
+app.listen(PORT, HOST, () => {
+  console.log(`Server running on http://${HOST}:${PORT}`);
 });

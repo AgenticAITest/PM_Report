@@ -10,10 +10,10 @@
     "react-scripts": "5.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "PORT=5000 HOST=0.0.0.0 DANGEROUSLY_DISABLE_HOST_CHECK=true react-scripts start",
     "build": "react-scripts build"
   },
-  "proxy": "http://localhost:3001",
+  "proxy": "http://127.0.0.1:3001",
   "browserslist": {
     "production": [
       ">0.2%",

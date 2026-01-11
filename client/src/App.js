@@ -8,7 +8,7 @@ import PMProjectAssignment from './PMProjectAssignment';
 import PMVarianceBarChart from './PMVarianceBarChart';
 import './App.css';
 
-const API_URL = 'http://localhost:3001/api';
+const API_URL = '/api';
 
 // Load/save settings from localStorage
 const loadSettings = () => {
