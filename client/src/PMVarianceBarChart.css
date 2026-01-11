@@ -1,0 +1,60 @@
+.pm-variance-bar-chart {
+  background: white;
+  border-radius: 8px;
+  padding: 0.75rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.pm-variance-bar-chart h2,
+.pm-variance-bar-chart h3 {
+  font-size: 0.85rem;
+  margin: 0 0 0.25rem 0;
+  color: #1a73e8;
+}
+
+.pm-variance-bar-chart .section-description {
+  font-size: 0.7rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.pm-variance-bar-chart .chart-container {
+  flex: 1;
+  position: relative;
+  min-height: 0;
+}
+
+.pm-variance-bar-chart .chart-footer {
+  margin-top: 0.5rem;
+  font-size: 0.7rem;
+  color: #666;
+  text-align: center;
+}
+
+.pm-variance-bar-chart .no-data {
+  text-align: center;
+  padding: 1rem;
+  color: #999;
+  font-size: 0.75rem;
+}
+
+/* Compact mode */
+.pm-variance-bar-chart.compact {
+  padding: 0.5rem;
+}
+
+.pm-variance-bar-chart.compact h2,
+.pm-variance-bar-chart.compact h3 {
+  font-size: 0.75rem;
+}
+
+.pm-variance-bar-chart.compact .section-description {
+  display: none;
+}
+
+.pm-variance-bar-chart.compact .chart-footer {
+  display: none;
+}

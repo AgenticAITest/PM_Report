@@ -1,0 +1,35 @@
+No,Status,PM,Project Name,Budget-Internal,Budget-Buffer,Budget-Total,Budget-Spent,Budget-Percentage,Project_Progress,Budget_Overrun,Budget_Underrun,CE_Indicator
+1,Active,Ahdi S.,FIMA3-AMS (2025-2026),"40,00",,"40,00","78,06","195,14%","87,05%","108,09%",,🔴 Need Action
+2,Active,Ahdi S.,FIMA CR 2025 - Priority 1,"159,20","12,90","172,10","67,08","38,98%","73,16%",,"34,18%",🟢 Excellent
+3,Active,Nandy N.,NIMBUS,"132,00",,"132,00","67,20","50,91%",,"50,91%",,⚪ No Progress
+4,Active,Ahdi S.,"Cerebro SDLC (Sprint 3, 6 - 20 Jan 2026)","24,60",,"24,60","5,31","21,60%","30,00%",,"8,40%",🟢 Excellent
+5,Active,Sonny D.,Lexus Reach AMS 2025,"61,60",,"61,60","9,78","15,88%","44,66%",,"28,78%",🟢 Excellent
+6,Active,Sonny D.,Lexus Reach eCare (VTS+PSM),"59,70","11,10","70,80","23,16","32,71%","90,00%",,"57,29%",🟢 Excellent
+7,Active,Sonny D.,Lexus Reach CR After Sales,"52,00","8,10","60,10","16,63","27,66%","74,00%",,"46,34%",🟢 Excellent
+8,Active,Sonny D.,Lexus Reach LCEP + After Sales,"185,10","27,30","212,40","120,86","56,90%","49,00%","7,90%",,🔵 Normal
+9,Active,Sonny D.,Lexus Reach Webview + CR GDCM Add.,"140,60","18,10","158,70","44,06","27,76%","74,00%",,"46,24%",🟢 Excellent
+10,Active,Sonny D.,Lexus Reach GDCM Phase 2,"85,70","13,00","98,70","36,44","36,92%","22,50%","14,42%",,🟡 Warning
+11,Active,Sonny D.,Lexus MLP LCEP,"59,40","8,20","67,60","31,38","46,41%","96,50%",,"50,09%",🟢 Excellent
+12,Active,Kharisma P.,TAM Telematics eCare (VTS+PSM) + ADF,"121,90","61,12","183,02","38,43","20,99%","100,00%",,"79,01%",🟢 Excellent
+13,Active,Kharisma P.,TAM Telematics GDCM Phase 2,"77,30","9,95","87,25","0,03","0,04%",,"0,04%",,⚪ No Progress
+14,Active,Kharisma P.,TAM Telematics CR Ticket 2026,"265,00",,"265,00","0,00","0,00%",,,"0,00%",⚪ No Progress
+15,Active,Kharisma P.,TAM Telematics AMS 2026,"141,50",,"141,50","0,81","0,57%","2,74%",,"2,17%",🟢 Excellent
+16,Active,Kharisma P.,Lexus Telematics eCare (VTS+PSM),"88,50","30,50","119,00","45,18","37,96%","98,00%",,"60,04%",🟢 Excellent
+17,Active,Kharisma P.,Lexus Telematics AMS 2026,"118,60",,"118,60","0,81","0,69%","2,74%",,"2,05%",🟢 Excellent
+18,Active,Kharisma P.,Lexus Telematics GDCM Phase 2,"67,50","8,90","76,40","33,28","43,56%","42,00%","1,56%",,🔵 Normal
+19,Closed,Ahdi S.,FM Connect CR8,"181,00","25,10","206,10","174,78","84,80%","100,00%",,"15,20%",🟢 Excellent
+20,Closed,Ahdi S.,"Cerebro SDLC (Sprint 1, 1-12 Dec 2025)","38,00",,"38,00","16,75","44,08%","100,00%",,"55,92%",🟢 Excellent
+21,Closed,Ahdi S.,"Cerebro SDLC (Sprint 2, 15-26 Dec 2025)","35,30",,"35,30","22,96","65,05%","100,00%",,"34,95%",🟢 Excellent
+22,Closed,Ahdi S.,NFI-Watch,"96,80",,"96,80","67,31","69,53%","100,00%",,"30,47%",🟢 Excellent
+23,Closed,Sonny D.,Lexus Reach GDCM Phase 1,"264,70","40,80","305,50","240,80","78,82%","100,00%",,"21,18%",🟢 Excellent
+24,Closed,Sonny D.,Lexus Reach CMS Font Update,"6,30",,"6,30","2,00","31,75%","100,00%",,"68,25%",🟢 Excellent
+25,Closed,Sonny D.,Lexus MLP Additional Enhancement,"111,20","19,80","131,00","64,72","49,40%","100,00%",,"50,60%",🟢 Excellent
+26,Closed,Sonny D.,Lexus MLP AMS 2025,"61,50",,"61,50","32,84","53,40%","100,00%",,"46,60%",🟢 Excellent
+27,Closed,Sonny D.,Lexus MLP CMS Font Update,"6,30",,"6,30","2,19","34,72%","100,00%",,"65,28%",🟢 Excellent
+28,Closed,Farid A.,TAM Telematics CR Ticket 2024,"265,00",,"265,00","267,31","100,87%","100,00%","0,87%",,🔵 Normal
+29,Closed,Farid A.,TAM Telematics AMS 2025,"141,50",,"141,50","145,84","103,07%","100,00%","3,07%",,🔵 Normal
+30,Closed,Nandy N.,TAM Telematics GDCM Phase 1,"240,60","21,38","261,98","120,94","46,17%","100,00%",,"53,83%",🟢 Excellent
+31,Closed,Farid A.,TAM & Lexus CR Font Update,"5,70","1,50","7,20","5,09","70,75%","100,00%",,"29,25%",🟢 Excellent
+32,Closed,Nandy N.,Lexus Telematics GDCM Phase 1,"283,00","30,73","313,73","211,91","67,54%","100,00%",,"32,46%",🟢 Excellent
+33,Closed,Nandy N.,Lexus Telematics AMS 2025,"59,25",,"59,25","4,34","7,33%","100,00%",,"92,67%",🟢 Excellent
+34,Closed,Farid A.,TAM Telematics CR Driving Score,"37,00","7,25","44,25","21,06","47,60%","100,00%",,"52,40%",🟢 Excellent

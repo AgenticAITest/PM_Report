@@ -1,0 +1,115 @@
+.pm-project-assignment {
+  background: white;
+  border-radius: 8px;
+  padding: 0.75rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.pm-project-assignment h2,
+.pm-project-assignment h3 {
+  font-size: 0.85rem;
+  margin: 0 0 0.25rem 0;
+  color: #1a73e8;
+}
+
+.pm-project-assignment .section-description {
+  font-size: 0.7rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.charts-row {
+  display: flex;
+  gap: 2rem;
+}
+
+.chart-box {
+  flex: 1;
+  min-width: 0;
+}
+
+.chart-box h3,
+.chart-box h4 {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #333;
+  margin: 0 0 0.5rem 0;
+  text-align: center;
+}
+
+.pm-project-assignment .chart-container {
+  height: 180px;
+  position: relative;
+}
+
+.pm-project-assignment .chart-only {
+  flex: 1;
+  position: relative;
+  min-height: 0;
+}
+
+.pm-project-assignment .chart-only.bar {
+  background: transparent;
+}
+
+.chart-container.pie-chart {
+  /* Pie chart specific styles */
+}
+
+.chart-container.bar-chart {
+  /* Bar chart with 3D effect background */
+  background: linear-gradient(180deg, #fafafa 0%, #f0f0f0 100%);
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.chart-footer {
+  margin-top: 1rem;
+  font-size: 0.875rem;
+  color: #666;
+  text-align: center;
+  padding-top: 1rem;
+  border-top: 1px solid #eee;
+}
+
+.pm-project-assignment .no-data {
+  text-align: center;
+  padding: 1rem;
+  color: #999;
+  font-size: 0.75rem;
+}
+
+/* Responsive: stack on smaller screens */
+@media (max-width: 900px) {
+  .charts-row {
+    flex-direction: column;
+  }
+
+  .pm-project-assignment .chart-container {
+    height: 200px;
+  }
+}
+
+/* Compact mode */
+.pm-project-assignment.compact {
+  padding: 0.5rem;
+}
+
+.pm-project-assignment.compact h2,
+.pm-project-assignment.compact h3 {
+  font-size: 0.75rem;
+}
+
+.pm-project-assignment.compact .chart-box h3,
+.pm-project-assignment.compact .chart-box h4 {
+  font-size: 0.65rem;
+  margin-bottom: 0.25rem;
+}
+
+.pm-project-assignment.compact .chart-container {
+  height: 150px;
+}

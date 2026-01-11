@@ -1,0 +1,131 @@
+.budget-status {
+  background: white;
+  border-radius: 8px;
+  padding: 0.75rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.budget-status h2,
+.budget-status h3 {
+  font-size: 0.85rem;
+  margin: 0 0 0.25rem 0;
+  color: #1a73e8;
+}
+
+.section-description {
+  font-size: 0.875rem;
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+.budget-content {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.budget-table-container {
+  flex: 1;
+  min-width: 0;
+}
+
+.budget-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.budget-table th,
+.budget-table td {
+  padding: 0.4rem 0.5rem;
+  text-align: center;
+  border: 1px solid #e0e0e0;
+}
+
+.budget-table th {
+  font-weight: 500;
+  font-size: 0.7rem;
+}
+
+.budget-table .row-header {
+  background: #f5f5f5;
+  font-weight: 500;
+  text-align: left;
+  white-space: nowrap;
+  font-size: 0.7rem;
+}
+
+.budget-table .count-cell {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.budget-table .percentage-cell {
+  font-size: 0.8rem;
+  color: #666;
+}
+
+.table-footer {
+  margin-top: 0.75rem;
+  font-size: 0.875rem;
+  color: #666;
+}
+
+.budget-chart-container {
+  width: 200px;
+  height: 180px;
+  flex-shrink: 0;
+}
+
+.budget-chart-only {
+  flex: 1;
+  position: relative;
+  min-height: 0;
+}
+
+.budget-status .no-data {
+  text-align: center;
+  padding: 1rem;
+  color: #999;
+  font-size: 0.75rem;
+}
+
+/* Responsive: stack on smaller screens */
+@media (max-width: 768px) {
+  .budget-content {
+    flex-direction: column;
+  }
+
+  .budget-chart-container {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}
+
+/* Compact mode */
+.budget-status.compact {
+  padding: 0.5rem;
+}
+
+.budget-status.compact h2,
+.budget-status.compact h3 {
+  font-size: 0.75rem;
+}
+
+.budget-status.compact .budget-table th,
+.budget-status.compact .budget-table td {
+  padding: 0.3rem 0.4rem;
+  font-size: 0.65rem;
+}
+
+.budget-status.compact .budget-table .count-cell {
+  font-size: 0.85rem;
+}
+
+.budget-status.compact .budget-table .percentage-cell {
+  font-size: 0.7rem;
+}

@@ -1,0 +1,60 @@
+.variance-pie-chart {
+  background: white;
+  border-radius: 8px;
+  padding: 0.75rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.variance-pie-chart h2,
+.variance-pie-chart h3 {
+  font-size: 0.85rem;
+  margin: 0 0 0.25rem 0;
+  color: #1a73e8;
+}
+
+.variance-pie-chart .chart-description {
+  font-size: 0.7rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.variance-pie-chart .chart-container {
+  flex: 1;
+  position: relative;
+  min-height: 0;
+}
+
+.variance-pie-chart .chart-footer {
+  margin-top: 0.5rem;
+  font-size: 0.7rem;
+  color: #666;
+  text-align: center;
+}
+
+.variance-pie-chart .no-data {
+  text-align: center;
+  padding: 1rem;
+  color: #999;
+  font-size: 0.75rem;
+}
+
+/* Compact mode */
+.variance-pie-chart.compact {
+  padding: 0.5rem;
+}
+
+.variance-pie-chart.compact h2,
+.variance-pie-chart.compact h3 {
+  font-size: 0.75rem;
+}
+
+.variance-pie-chart.compact .chart-description {
+  display: none;
+}
+
+.variance-pie-chart.compact .chart-footer {
+  display: none;
+}
